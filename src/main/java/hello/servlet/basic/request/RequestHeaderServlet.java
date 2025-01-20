@@ -18,6 +18,7 @@ public class RequestHeaderServlet extends HttpServlet {
         printHeaderUtils(request);
         printEtc(request);
 
+        response.getWriter().write("ok");
     }
 
     private void printEtc(HttpServletRequest request) {
