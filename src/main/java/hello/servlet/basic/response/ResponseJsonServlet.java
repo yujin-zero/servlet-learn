@@ -17,7 +17,7 @@ public class ResponseJsonServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         response.setHeader("Content-Type", "application/json");
-        response.setCharacterEncoding("utf-8");
+//        response.setCharacterEncoding("utf-8");
 
         HelloData data = new HelloData();
         data.setUsername("so");
